@@ -1,0 +1,29 @@
+{
+  "company_info": {
+    "company_name": "LA Flood Love",
+    "company_name_short": "",
+    "website_url": "",
+    "email_address": "",
+    "phone_number1": "",
+    "phone_number2": ""
+  },
+  "physical_address": {
+    "city": "",
+    "state": "",
+    "zipcode": "",
+    "address_1": "",
+    "address_2": "",
+    "google_maps_link": ""
+  },
+  "social_media": {
+    "facebook_url": "",
+    "twitter_url": ""
+  },
+  "settings": {
+    "about_company": "",
+    "appended_meeting_agenda_text": "",
+    "site_header_image": "",
+    "agenda_image": "",
+    "about_us_image": ""
+  }
+}

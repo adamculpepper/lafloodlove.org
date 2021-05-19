@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	{% include "components/head.njk" %}
+
+	<body>
+		<div id="content" class="container-fluid h-100">
+			<div class="row h-100">
+				<div class="col-6 center-flex">
+					<span class="donate-panel p-5">
+						<h1 class="mb-5">Donate Today!</h1>
+						<div class="donation-option">
+							<form action="https://www.paypal.com/donate" method="post" target="_blank" class="d-flex">
+								<input type="hidden" name="hosted_button_id" value="MF9ARRHCMWXXW" />
+								{# <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" /> #}
+								<input class="donation-option-logo" type="image" src="/_includes/assets/img/logo-paypal.svg" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+								<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+							</form>
+						</div>
+						<div class="donation-seperator">or</div>
+						<div class="donation-option">
+							<img class="donation-option-logo" src="/_includes/assets/img/logo-venmo.svg">
+						</div>
+					</span>
+				</div>
+				<div class="col-6 center-flex logo">
+					<img src="_includes/assets/img/logo-lafloodlove.svg">
+				</div>
+			</div>
+		</div>
+
+		<div class="background-slideshow">
+			<div class="background-overlay"></div>
+			<div class="slides">
+				<div class="slide slide1"></div>
+				<div class="slide slide2"></div>
+				<div class="slide slide3"></div>
+			</div>
+		</div>
+
+		<script src="/_includes/assets/libs/jquery/jquery.min.js"></script>
+		<script src="/_includes/assets/libs/slick/slick.min.js"></script>
+		<script src="/_includes/assets/js/custom.js"></script>
+	</body>
+</html>
