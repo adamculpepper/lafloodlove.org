@@ -63,7 +63,7 @@ h1 {font-weight:900;}
 .background-slideshow .slides .slick-list,
 .background-slideshow .slides .slick-track {height:100%;}
 
-.background-slideshow .slide {background-size:cover;}
+.background-slideshow .slide {background-size:cover; background-position:center center;}
 .background-slideshow .slide1 {background-image:url(/_includes/assets/img/bg-slide1.jpg);}
 .background-slideshow .slide2 {background-image:url(/_includes/assets/img/bg-slide2.jpg);}
 .background-slideshow .slide3 {background-image:url(/_includes/assets/img/bg-slide3.jpg);}
