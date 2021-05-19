@@ -84,7 +84,7 @@ h1 {font-weight:900;}
 
 .donate-panel .donation-seperator {position:relative; color:#666; margin:20px 0; text-transform:uppercase;}
 .donate-panel .donation-seperator:before,
-.donate-panel .donation-seperator:after {background:var(--blue); content:''; display:block; position:absolute; top:50%; transform:translateY(-50%); width:43%; height:2px;}
+.donate-panel .donation-seperator:after {background:var(--blue); content:''; display:block; position:absolute; top:50%; transform:translateY(-50%); width:30%; height:2px;}
 .donate-panel .donation-seperator:after {right:0;}
 
 /* ------------------------------ */
@@ -107,7 +107,8 @@ h1 {font-weight:900;}
 
 /* Large (lg) and up */
 @media (min-width:992px) {
-
+	.donate-panel .donation-seperator:before,
+	.donate-panel .donation-seperator:after {width:43%;}
 }
 
 /* Extra Large (xl) and up */
